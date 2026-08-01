@@ -1,7 +1,7 @@
 package oop.basic;
 
 class Car {
-    //instance vaiables
+    // instance vaiables
     String name;
     int speed;
     String color;

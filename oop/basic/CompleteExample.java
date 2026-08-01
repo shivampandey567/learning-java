@@ -1,12 +1,12 @@
 package oop.basic;
 
 class Car {
-    //instance vaiables
+    // instance vaiables
     String name;
     int speed;
     String color;
 
-    //method
+    // method
     void display() {
         System.out.println("name: " + name + ", speed: " + speed + ", color: " + color);
     }
@@ -14,12 +14,12 @@ class Car {
 
 public class CompleteExample {
     public static void main(String[] args) {
-        //creating objects
+        // creating objects
         Car c1 = new Car();
         Car c2 = new Car();
         Car c3 = new Car();
 
-        //assiging values to each objects
+        // assiging values to each objects
         c1.name = "porche";
         c1.speed = 357;
         c1.color = "red";
@@ -32,8 +32,9 @@ public class CompleteExample {
         c3.speed = 467;
         c3.color = "yellow";
 
-        //calling the method
-        c1.display();;
+        // calling the method
+        c1.display();
+        ;
         c2.display();
         c3.display();
     }

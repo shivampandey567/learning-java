@@ -1,6 +1,6 @@
 package oop.basic;
 
-class Car {     //this is a class
+class Car { // this is a class
     String name;
     int speed;
     String color;

@@ -18,8 +18,8 @@ public class Method {
         c1.name = "porche";
         c1.speed = 357;
         c1.color = "red";
- 
-        //calling the method
+
+        // calling the method
         c1.display();
     }
 }

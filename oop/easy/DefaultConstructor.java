@@ -1,4 +1,4 @@
-package oop.medium;
+package oop.easy;
 
 class Car {
     String name;
@@ -11,7 +11,7 @@ class Car {
     }
 
     void display() {
-        System.out.println("name: " + name + ", speed: " + speed + ", color: " + color);
+        System.out.println("name: " + this.name + ", speed: " + this.speed + ", color: " + this.color);
     }
 }
 
