@@ -1,20 +1,20 @@
 package oop.easy;
 
-class Ca {
+class Car {
     // Private Instance Variables
     private String name;
     private int speed;
     private String color;
 
     // default constructor
-    Ca() {
+    Car() {
         this.name = "unknown";
         this.speed = 0;
         this.color = "unknown";
     }
 
     // Parameterized Constructor
-    Ca(String name, int speed, String color) {
+    Car(String name, int speed, String color) {
         this.name = name;
         this.speed = speed;
         this.color = color;
@@ -59,9 +59,9 @@ class Ca {
 public class CompleteExample {
     public static void main(String[] args) {
         // Create Object using Constructor
-        Ca c1 = new Ca();
-        Ca c2 = new Ca("porche", 357, "red");
-        Ca c3 = new Ca("ferrari", 467, "yellow");
+        Car c1 = new Car();
+        Car c2 = new Car("porche", 357, "red");
+        Car c3 = new Car("ferrari", 467, "yellow");
 
         // getting c1 details
         System.out.println(c1.getName());
