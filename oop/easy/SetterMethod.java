@@ -38,7 +38,7 @@ public class SetterMethod {
         // display the original car
         c1.display();
 
-        // updateing the car
+        // updating the car
         c1.setName("ferrari");
         c1.setSpeed(467);
         c1.setColor("yellow");

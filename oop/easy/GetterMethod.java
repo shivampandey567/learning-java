@@ -35,6 +35,7 @@ public class GetterMethod {
     public static void main(String[] args) {
         Car c1 = new Car("porche", 357, "red");
 
+        // getting the car info
         System.out.println(c1.getName());
         System.out.println(c1.getSpeed());
         System.out.println(c1.getColor());
