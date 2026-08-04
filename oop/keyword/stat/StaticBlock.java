@@ -5,7 +5,7 @@
 
 //It is always executed in the starting and only once
 
-package oop.keyword;
+package oop.keyword.stat;
 
 class Car {
     // static block

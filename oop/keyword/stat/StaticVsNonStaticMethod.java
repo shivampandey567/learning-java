@@ -2,7 +2,7 @@
 // A static method cannot directly call a non-static method because the object is not created yet,
 // To call a non-static method by a static method we need to create a object inside the method first.
 
-package oop.keyword;
+package oop.keyword.stat;
 
 class CarA {
     static void start() {

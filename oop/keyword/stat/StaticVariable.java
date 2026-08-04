@@ -1,7 +1,7 @@
 // static variable belongs to the class.
 // static variable is a shared variable whereas instance variable is seperate for each object
 
-package oop.keyword;
+package oop.keyword.stat;
 
 class Car {
     String name;

@@ -1,6 +1,6 @@
 // static method can be called without creating an object.
 
-package oop.keyword;
+package oop.keyword.stat;
 
 class Calculator {
     static int add(int a, int b) {

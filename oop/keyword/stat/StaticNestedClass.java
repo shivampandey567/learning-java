@@ -3,7 +3,7 @@
 // A class can be static only if it is inside another class.
 // java dont allow to create a static top level class.
 
-package oop.keyword;
+package oop.keyword.stat;
 
 class Car {
     static class Engine {
