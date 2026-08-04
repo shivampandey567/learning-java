@@ -1,10 +1,10 @@
-// A non-static nested class (inner class)
+// A non-static inner class
 // belongs to an object of the outer class.
 
 // To create an object of the inner class, you must 
 // first create an object of the outer class.
 
-package oop.basic;
+package oop.hard;
 
 class Car {
     String brand = "porche";
@@ -20,7 +20,7 @@ class Car {
 
 }
 
-public class NestedClass {
+public class InnerClass {
     public static void main(String[] args) {
         // Create Outer Class Object
         Car car = new Car();

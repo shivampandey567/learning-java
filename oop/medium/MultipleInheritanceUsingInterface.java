@@ -1,6 +1,11 @@
 // Multiple inheritance using interfaces
 // allows one class to implement multiple interfaces.
 
+// Java does not support multiple inheritance using classes 
+// to avoid ambiguity (Diamond Problem). However, 
+// Java supports multiple inheritance through interfaces, 
+// allowing a class to implement multiple interfaces safely.
+
 package oop.medium;
 
 interface Walk {
