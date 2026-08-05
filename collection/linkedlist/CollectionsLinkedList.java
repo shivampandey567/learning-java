@@ -32,17 +32,14 @@ public class CollectionsLinkedList {
 
         // Collection.sort()
         Collections.sort(numbers);
-
         System.out.println("Sorted: " + numbers); // Sorted: [10, 20, 50, 90]
 
         // Collections.reverse()
         Collections.reverse(numbers);
-
         System.out.println("Reverse: " + numbers); // Reverse: [90, 50, 20, 10]
 
         // Collections.shuffle()
         Collections.shuffle(numbers);
-
         System.out.println("Shuffle: " + numbers); // Shuffle: [10, 20, 50, 90]
 
         // Collections.max()
@@ -54,14 +51,11 @@ public class CollectionsLinkedList {
         // Collections.frequency()
         numbers.add(20);
         numbers.add(20);
-
         System.out.println("Frequency of 20: " + Collections.frequency(numbers, 20)); // Frequency of 20: 3
 
         // Binary Search
         Collections.sort(numbers);
-
         System.out.println("Binary Search 50: " + Collections.binarySearch(numbers, 50)); // Binary Search 50: 4
-
     }
 }
 

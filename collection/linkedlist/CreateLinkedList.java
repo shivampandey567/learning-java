@@ -24,7 +24,6 @@ public class CreateLinkedList {
 
         // addLast()
         list.addLast("Last");
-
         System.out.println("After addFirst/addLast(): " + list); // After addFirst/addLast(): [First, Apple, Mango, Banana, Orange, Last]
 
         // get()
@@ -69,7 +68,6 @@ public class CreateLinkedList {
 
         // removeLast()
         list.removeLast();
-
         System.out.println("After removeFirst/removeLast(): " + list); // After removeFirst/removeLast(): [Banana, Orange, Last]
 
         // peek()
@@ -89,7 +87,6 @@ public class CreateLinkedList {
 
         // offerLast()
         list.offerLast("Pineapple");
-
         System.out.println("After offer(): " + list); // After offer(): [Papaya, Banana, Orange, Last, Kiwi, Pineapple]
 
         // poll()
@@ -100,17 +97,14 @@ public class CreateLinkedList {
 
         // pollLast()
         System.out.println("pollLast(): " + list.pollLast()); // pollLast(): Pineapple
-
         System.out.println("After polling: " + list); // After polling: [Orange, Last, Kiwi]
 
         // push()
         list.push("StackTop");
-
         System.out.println("After push(): " + list); // After push(): [StackTop, Orange, Last, Kiwi]
 
         // pop()
         System.out.println("pop(): " + list.pop()); // pop(): StackTop
-
         System.out.println("After pop(): " + list); // After pop(): [Orange, Last, Kiwi]
     }
 }
